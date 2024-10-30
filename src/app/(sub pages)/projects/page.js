@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../../../../public/background/colorful.webp";
+import bg from "../../../../public/background/darkcity.webp";
 import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
 

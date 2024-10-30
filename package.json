@@ -1,11 +1,11 @@
 {
   "homepage": "https://JoonC2.github.io/JoonC2.github.io",
-  "name": "nextjs-creative-portfolio",
+  "name": "Jonathan's Portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy" : "npm run dev",
+    "deploy": "gh-pages -d dev",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
