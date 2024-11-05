@@ -1,12 +1,9 @@
-// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',  // Enable static export
-    basePath: '/JoonC2.github.io',  // Match your repository name
-    images: {
-      unoptimized: true,  // Disable Next.js image optimization (since it's not supported on static sites)
-  },
-};
-
+    basePath: "/Joonc2.github.io",
+    output: "export",  // <=== enables static exports
+    reactStrictMode: true,
+  };
+  
 
 export default nextConfig;
